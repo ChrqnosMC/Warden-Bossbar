@@ -1,0 +1,10 @@
+{
+	"rewards": {
+		"function": "warden_bossbar:warden_trigger"
+	},
+	"criteria": {
+		"warden_trigger": {
+			"trigger": "minecraft:impossible"
+		}
+	}
+}
