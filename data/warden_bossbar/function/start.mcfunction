@@ -46,4 +46,6 @@ bossbar set eighth_warden style progress
 bossbar set eighth_warden color blue
 scoreboard objectives add eighth_warden_check dummy
 
+tellraw @a ["",{"text":"Warden Bossbar datapack has been reloaded"}]
+
 schedule function warden_bossbar:tick 1t
